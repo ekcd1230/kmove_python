@@ -18,10 +18,10 @@ while True:
         while inputArray[i] in array:
             if array[i]==inputArray[i]:
                 strikecnt+=1
-                break
             else:
                 ballcnt+=1
-                break
+            break
+                
     print('{0}스트라이크 {1}볼'.format(strikecnt,ballcnt))
     if strikecnt==3:
         break
